@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-03T18:24:45 IST" name="Default suite" finished-at="2020-06-03T18:24:46 IST" duration-ms="275">
+    <groups>
+      <group name="regression">
+        <method signature="Mars.test2()[pri:0, instance:org.test.Mars@2cdd0d4b]" name="test2" class="org.test.Mars"/>
+        <method signature="Mars.test4()[pri:0, instance:org.test.Mars@2cdd0d4b]" name="test4" class="org.test.Mars"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Mars.test6()[pri:0, instance:org.test.Mars@2cdd0d4b]" name="test6" class="org.test.Mars"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Mars.test1()[pri:0, instance:org.test.Mars@2cdd0d4b]" name="test1" class="org.test.Mars"/>
+        <method signature="Mars.test3()[pri:0, instance:org.test.Mars@2cdd0d4b]" name="test3" class="org.test.Mars"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2020-06-03T18:24:45 IST" name="Default test" finished-at="2020-06-03T18:24:46 IST" duration-ms="275">
+      <class name="org.test.Mars">
+        <test-method signature="test1()[pri:0, instance:org.test.Mars@2cdd0d4b]" started-at="2020-06-03T18:24:45 IST" name="test1" finished-at="2020-06-03T18:24:46 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:org.test.Mars@2cdd0d4b]" started-at="2020-06-03T18:24:46 IST" name="test2" finished-at="2020-06-03T18:24:46 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:org.test.Mars@2cdd0d4b]" started-at="2020-06-03T18:24:46 IST" name="test3" finished-at="2020-06-03T18:24:46 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:org.test.Mars@2cdd0d4b]" started-at="2020-06-03T18:24:46 IST" name="test4" finished-at="2020-06-03T18:24:46 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test6()[pri:0, instance:org.test.Mars@2cdd0d4b]" started-at="2020-06-03T18:24:46 IST" name="test6" finished-at="2020-06-03T18:24:46 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+      </class> <!-- org.test.Mars -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
